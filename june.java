@@ -1,14 +1,17 @@
 import java.util.Scanner;
-    public class junejava {
-        public static void main (string[]args){
-            Scanner junejava =new scanner (system.in);
+    public class June{
+        public static void main (String[]args){
+            Scanner junejava =new Scanner (System.in);
             System.out.print ("Enter your name: ");
-            String name= scanner.nextline();
+            String name= junejava.nextLine();
             
 
             System.out.print("Enter your Age:");
-            int Age=scanner.nextint();
-            scanner.close()
+            int Age=junejava.nextInt();
+
+
+            System.out.println("Your name is: " +name+ " and you are: "+Age+ "years old");
+            junejava.close();
         
         }
     }
