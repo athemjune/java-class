@@ -1,0 +1,21 @@
+ 
+ //Java Program to illustrate One Time iteration
+ //Inside do-while loop
+ //when condition IS Not Satisfied
+
+ //Class
+ Class GFG{
+    //Main driver method
+    public static void main(string[]arg){
+        //intial counter variable 
+        int m=0;
+        do{
+            // Body of loop that will execute minimium
+            //1 time for sure no matter what 
+            System.out.println("print statement");
+            m++;
+        }
+    }
+ }
+  // checking condition
+  //note:lt is being
